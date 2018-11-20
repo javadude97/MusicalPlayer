@@ -16,7 +16,7 @@ public class SongActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.word_list);
+        setContentView(R.layout.song_list);
 
         // Create a list of words
         final ArrayList<Song> songs = new ArrayList<Song>();
