@@ -18,7 +18,7 @@ public class SongActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.song_list);
 
-        // Create a list of words
+        // Create a list where the default is artist name and miwok is the song title here.
         final ArrayList<Song> songs = new ArrayList<Song>();
         songs.add(new Song("one", "lutti", R.drawable.number_one, R.raw.number_one));
         songs.add(new Song("two", "otiiko", R.drawable.number_two, R.raw.number_two));
