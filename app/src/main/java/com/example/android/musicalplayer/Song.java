@@ -6,16 +6,16 @@ package com.example.android.musicalplayer;
  */
 public class Song {
 
-    /** Default translation for the word */
+    /** Default translation for the word (corresponds to artist name) */
     private String mDefaultTranslation;
 
-    /** Miwok translation for the word */
+    /** Miwok translation for the word (corresponds to song title) */
     private String mMiwokTranslation;
 
     /** Audio resource ID for the word (song) */
     private int mAudioResourceId;
 
-    /** Image resource ID for the word (song) */
+    /** Image resource ID for the word (corresponds to album image) */
     private int mImageResourceId = NO_IMAGE_PROVIDED;
 
     /** Constant value that represents no image was provided for this word */
