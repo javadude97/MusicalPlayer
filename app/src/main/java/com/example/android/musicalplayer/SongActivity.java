@@ -57,5 +57,8 @@ public class SongActivity extends AppCompatActivity {
 
                 // Start the audio file
                 mMediaPlayer.start();
+            }
+        });
     }
+
 }
