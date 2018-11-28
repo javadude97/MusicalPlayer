@@ -2,6 +2,6 @@
     <string name="app_name">Musical Player</string>
 
     <!-- Category name for the songs and artist names for musical player [CHAR LIMIT=20] -->
-    <string name="category_numbers">Player</string>
+    <string name="category_numbers">Playlist</string>
 
 </resources>

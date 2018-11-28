@@ -18,18 +18,18 @@ public class SongActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.song_list);
 
-        // Create a list where the default is artist name and miwok is the song title here.
+        // Create a list that includes the artist name and the song title here.
         final ArrayList<Song> songs = new ArrayList<Song>();
-        songs.add(new Song("one", "lutti", R.drawable.number_one, R.raw.number_one));
-        songs.add(new Song("two", "otiiko", R.drawable.number_two, R.raw.number_two));
-        songs.add(new Song("three", "tolookosu", R.drawable.number_three, R.raw.number_three));
-        songs.add(new Song("four", "oyyisa", R.drawable.number_four, R.raw.number_four));
-        songs.add(new Song("five", "massokka", R.drawable.number_five, R.raw.number_five));
-        songs.add(new Song("six", "temmokka", R.drawable.number_six, R.raw.number_six));
-        songs.add(new Song("seven", "kenekaku", R.drawable.number_seven, R.raw.number_seven));
-        songs.add(new Song("eight", "kawinta", R.drawable.number_eight, R.raw.number_eight));
-        songs.add(new Song("nine", "wo’e", R.drawable.number_nine, R.raw.number_nine));
-        songs.add(new Song("ten", "na’aacha", R.drawable.number_ten, R.raw.number_ten));
+        songs.add(new Song("Michael Jackson", "The Lady in My Life", R.drawable.thriller_michael_jackson, R.raw.number_one));
+        songs.add(new Song("Atlantic Starr", "Masterpiece", R.drawable.atlantic_starr, R.raw.number_two));
+        songs.add(new Song("Janet Jackson", "Escapade", R.drawable.janet_jackson, R.raw.number_three));
+        songs.add(new Song("Mike and the Mechanics", "The Living Years", R.drawable.mike_and_the_mechanics, R.raw.number_four));
+        songs.add(new Song("Cathy Dennis", "Touch Me (All Night Long)", R.drawable.cathy_dennis, R.raw.number_five));
+        songs.add(new Song("Akon", "Chammak Challo", R.drawable.akon, R.raw.number_six));
+        songs.add(new Song("Toni Braxton", "Make My Heart", R.drawable.toni_braxton, R.raw.number_seven));
+        songs.add(new Song("Lee Ann Womack", "I Hope You Dance", R.drawable.lee_ann_womack, R.raw.number_eight));
+        songs.add(new Song("Keith Urban", "Defying Gravity", R.drawable.keith_urban, R.raw.number_nine));
+        songs.add(new Song("Billy Joel", "The Stranger", R.drawable.billy_joel, R.raw.number_ten));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
