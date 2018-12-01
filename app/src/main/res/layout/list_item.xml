@@ -28,7 +28,7 @@
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@android:color/white"
             android:textStyle="bold"
-            tools:text="lutti" />
+            tools:text="Song Name" />
 
         <TextView
             android:id="@+id/artist_text_view"
@@ -38,7 +38,7 @@
             android:gravity="top"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@android:color/white"
-            tools:text="one" />
+            tools:text="Artist Name" />
 
     </LinearLayout>
 
